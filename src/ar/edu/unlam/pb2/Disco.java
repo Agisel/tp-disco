@@ -1,4 +1,4 @@
-package disco1;
+package ar.edu.unlam.pb2;
 
 public class Disco {
 	//atributos
@@ -28,7 +28,7 @@ public class Disco {
 	
 	public Double calcularSuperficie(){
 		Double superficie; 
-		superficie= Math.PI*radioExterior*radioExterior;
+		superficie = Math.PI*Math.pow(radioExterior, 2.0);
 		return superficie;
 	}
 	
